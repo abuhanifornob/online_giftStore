@@ -1,8 +1,12 @@
+import Banner from "../components/Home/Banner";
+import CategoryBanner from "../components/Home/CategoryBanner";
+
 const Home = () => {
   return (
-    <div>
-      <h2>This is Home pages</h2>
-    </div>
+    <>
+      <CategoryBanner />
+      <Banner />
+    </>
   );
 };
 
